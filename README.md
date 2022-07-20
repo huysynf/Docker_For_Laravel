@@ -4,18 +4,12 @@
 
 ## Requirements
 
-These images requires **Docker** and **Docker Compose**.
 
-## Installation
+## Installation: chỉnh sửa lại các tham số trong env
 
-1. Copy `docker-compose.yml` file to your laravel project root path, and edit it according to your needs ;
-
-2. Copy content of `.env.example` file and put it into your laravel `.env` file with desired values ;
-
-3. From your project directory, start up your application by running:
-
+cp .env.example .env
 ```sh
-docker-compose up
+docker-compose up -d
 ```
 ## Contributing
 
