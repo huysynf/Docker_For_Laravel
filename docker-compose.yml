@@ -9,9 +9,9 @@ services:
     volumes:
       - ${APP_PROJECT_PATH}:/var/www
     depends_on:
-      - php
+      - php-fpm
 
-  php:
+  php-fpm:
     image: tonyyb/laravel-php:${PHP_VERSION}
     tty: true
     volumes:
